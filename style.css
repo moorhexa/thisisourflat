@@ -46,14 +46,23 @@ body {
 .box:nth-child(4) { background: #4B565A; }
 .box:nth-child(5) { background: #D8E0E3; }
 
+h1 {
+	
+}
 .text{
 	padding-right: 10vw;
 	padding-left: 10vw;
 	font-size: 3vw;
 }
 
-.social{
 
+.social_container{
+	display: flex;
+	justify-content: space-around;
+}
+.social{
+	border: 1vmin solid black;
+	border-radius: 5%;
 }
 
 .video{
