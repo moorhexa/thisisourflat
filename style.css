@@ -5,48 +5,47 @@
 }
 
 body {
-	font-size: 16px;		
+	font-size: 1em;		
 	background: #eee;
 	font-family:'Wire One', cursive;
     overflow-x:hidden;
 }
 
 .navigation {
-	top: 0;
-	left: 0;
-	padding: 0 10%;
-	width: 100%;
-	position: fixed;
+	padding-top: 10vh;
 	color: #fff;
-	box-sizing: border-box;
-	background: #363636;
-	text-align: center;
 }
 .navigation a {
 	color: inherit;
-	margin: 35px 5px;
-	line-height: 150%;	
-	padding: 0 5px 0 20px;
-	display: inline-block;
 	text-decoration: none;
 	border-left: 1px solid #fff;
+	display: flex;
+	justify-content: space-around;
 } 
 .navigation a.active { color: yellow; }
 .navigation a:first-child { border: 0; }
 .box {
 	width: 100vw;
 	height: 100vh;
-	font-size: 5vw;
 	text-align: center;	
 	background: #363636;
-	margin-top: 10vh;
 }
 .box:nth-child(2) { background: #4B565A; }
 .box:nth-child(3) { background: #363636; }
 .box:nth-child(4) { background: #4B565A; }
 .box:nth-child(5) { background: #D8E0E3; }
 
+.content{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-top: 10vh;
+}
+
 h1 {
+	font-family:'Wire One';
+	font-size: 5vw;
 	
 }
 .text{
@@ -59,9 +58,10 @@ h1 {
 .social_container{
 	display: flex;
 	justify-content: space-around;
+	padding-top: 10vh;
 }
 .social{
-	border: 1vmin solid black;
+	border: 1px solid black;
 	border-radius: 5%;
 }
 
