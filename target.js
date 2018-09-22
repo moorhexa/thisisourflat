@@ -6,7 +6,7 @@ jQuery('.navigation a').on( 'click', function(event) {
     target.addClass('active');
 
     jQuery("body, html").animate({ 
-      scrollTop: jQuery( element ).offset().top - 90	
+      scrollTop: jQuery( element ).offset().top	
     }, 800);
 
 });
